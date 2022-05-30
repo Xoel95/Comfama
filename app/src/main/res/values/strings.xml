@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Comfama</string>
+    <string name="productos_basicos">Essential Products</string>
+    <string name="cosas_varias">Random Things</string>
+    <string name="muebles">Furniture</string>
+    <string name="parafarmacia">Parapharmacy</string>
+    <string name="herramientas">Tools</string>
+    <string name="explicacion">"Click on the mic image and say whatever you want to buy from the next kinds of product: essential products, random things, furniture, parapharmacy or tools.
+        \n\nIf you have the mute persons' option activated, write the kind of product you want to buy.\n"
+    </string>
+    <string name="introduccion">"\nThis is a nonprofit app.
+        \n\nThe purpose of this app is to help those who are not acquainted with technology,
+        so they can buy all the things they need through the Internet without any problems.
+        \n\nClick on the image to continue."
+    </string>
+    <string name="lidl">https://www.lidl.es/</string>
+    <string name="amazon">https://www.amazon.com/</string>
+    <string name="ikea">https://www.ikea.com/es/en/</string>
+    <string name="drfarma">https://drfarma.es/en/</string>
+    <string name="leroy_merlin">https://www.leroymerlin.es/</string>
+    <string name="instrucciones_lidl">In Lidl\'s Spanish website, there is no English translation.
+        In Lidl\'s website you can buy as a guest without any account but it is recommended to have one.
+        \n\nFirst, you click on Identifícate, if you already have an account, identify yourself, if not, click on Regístrate and create a Lidl account.
+        After that, search what you want to buy and click on Añadir a la Cesta.
+        \n\nDo the same with all the products you want, when you finish, click on Cesta and later, click on Compra Ya.
+        Introduce your personal data, your payment method and click on Pagar.\n\n
+    </string>
+    <string name="instrucciones_amazon">In Amazon\'s Spanish website, there is no English translation, the US website was chosen instead.
+        \n\nFirst, you click on the person symbol button on the upper right side of the screen.
+        Later, if you already have an account, select Sign-In, if not, click on Create account to create one.
+        After that, search what you want to buy and, if the product can be delivered, click on Add to Cart.
+        \n\nDo the same with all the products you want, when you finish, click on the Cart and later, click on Proceed to checkout.
+        Introduce your personal data, your direction, your payment method and the delivery option that you want from those available and click on Place your order in EUR.\n\n
+    </string>
+    <string name="instrucciones_ikea">In Ikea\'s website you can buy without any account but it is recommended to have one.
+        \n\nFirst, you click on Hej! Log in or sign up.
+        Later, if you already have an account click, on Log in and identify yourself, if not, click on Join IKEA Family and create an Ikea account.
+        After that, search what you want to buy and click on Add to Cart.
+        \n\nDo the same with all the products you want, when you finish, click on the Cart and later, click on Continue to checkout.
+        Choose whether you want to pick them up at a pick-up point or for them to be delivered to your home.
+        Introduce your personal data, your payment method and click on Pay.\n\n
+    </string>
+    <string name="instrucciones_drfarma">In DrFarma\'s website you can buy as a guest without any account but it is recommended to have one.
+        First, you click on Sign in. If you already have an account, identify yourself, if not, click on No account? to create a DrFarma account.
+        After that, search what you want to buy and click on Add to Cart.
+        Do the same with all the products you want, when you finish, click on Shopping Cart and later, click on Proceed to checkout.
+        Introduce your personal data, your shipping method, your payment method and click on Order with an obligation to pay.\n\n
+    </string>
+    <string name="instrucciones_leroymerlin">In Leroy Merlin\'s Spanish website, there is no English translation.
+        In Lidl\'s website you can buy without any account but it is recommended to have one.
+        \n\nFirst, you click on the person symbol button on the upper right side of the screen.
+        Later, if you already have an account, identify yourself, if not, click on Registrarme and create a Leroy Merlin account.
+        After that, search what you want to buy and click on Add to Cart.
+        \n\nDo the same with all the products you want, when you finish, click on the Cart and later, click on Tramitar pedido.
+        Introduce your personal data and click on Guardar Cambios, choose the shipping method you like for each product and click on Ir a resumen.
+        Click on Ir a pago, choose your payment method and click on Pagar.\n\n
+    </string>
+    <string name="idioma">en-US</string>
+    <string name="no_recon_excep">"Your device does not support voice recognition."</string>
+    <string name="noche">Enable Night Mode</string>
+    <string name="mudos">Enable Written Mode for Mute Persons</string>
+    <string name="escribir">Write whatever you want to buy here.</string>
+    <string name="buscar">Search</string>
+    <string name="opciones">Settings</string>
+    <string name="pagina_inicial">Go to Initial Page</string>
+    <string name="salir">Exit App</string>
+</resources>

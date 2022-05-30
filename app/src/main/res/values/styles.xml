@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="mic">
+        <item name="android:src">@drawable/mic_day</item>
+    </style>
+    <style name="settings">
+        <item name="android:src">@drawable/settings_day_animated</item>
+    </style>
+</resources>

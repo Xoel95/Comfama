@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="letra_defecto">13sp</dimen>
+    <dimen name="letra_intermedia">18sp</dimen>
+    <dimen name="letra_opciones">20sp</dimen>
+    <dimen name="letra_escuchada">25sp</dimen>
+    <dimen name="titulo">30sp</dimen>
+    <dimen name="padding_layout_land">5dp</dimen>
+    <dimen name="padding_layout">10dp</dimen>
+    <dimen name="padding_defecto">15dp</dimen>
+    <dimen name="button_height">80dp</dimen>
+    <dimen name="button_width">150dp</dimen>
+<!--    <dimen name="image_land">200dp</dimen>-->
+<!--    <dimen name="image">400dp</dimen>-->
+</resources>

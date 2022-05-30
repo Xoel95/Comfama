@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_principal_options"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sin_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_layout">
+
+    <LinearLayout
+        android:id="@+id/layout_secundario_options"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sin_medio"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_layout">
+
+<!--        <ImageView-->
+<!--            android:id="@+id/iv_options"-->
+<!--            app:srcCompat="@drawable/settings_animated"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="end"-->
+<!--            android:backgroundTint="@color/sin_medio"-->
+<!--            android:contentDescription="TODO" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/explicacion"
+            android:textSize="@dimen/letra_intermedia"
+            android:textColor="@color/sin_text"/>
+
+        <TextView
+            android:id="@+id/txtGrabarVoz"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="@dimen/letra_escuchada"
+            android:textColor="@color/sin_text"/>
+
+        <EditText
+            android:id="@+id/et_escribir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/escribir"
+            android:visibility="gone"
+            android:textColor="@color/sin_text"
+            android:inputType="text"
+            android:importantForAutofill="no"/>
+
+        <Button
+            android:id="@+id/btn_buscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buscar"
+            android:onClick="onClickBtnPrueba"
+            android:backgroundTint="@color/sin_bg"
+            android:textColor="@color/sin_text"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/ibtn_hablar"
+            android:src="@drawable/mic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:backgroundTint="@color/sin_medio"
+            android:onClick="onClickImgBtnHablar"
+            android:contentDescription="TODO" />
+    </LinearLayout>
+</LinearLayout>

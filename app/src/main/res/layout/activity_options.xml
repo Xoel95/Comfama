@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_principal_options"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sin_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_layout">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:verticalScrollbarPosition="defaultPosition">
+
+        <LinearLayout
+            android:id="@+id/layout_secundario_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sin_medio"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_layout">
+
+            <TextView
+                android:id="@+id/tv_noche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/noche"
+                android:textAlignment="center"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/letra_opciones" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/btn_switch_noche"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="@dimen/padding_defecto" />
+
+            <TextView
+                android:id="@+id/tv_mudos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mudos"
+                android:textAlignment="center"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/letra_opciones" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/btn_switch_escribir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="@dimen/padding_defecto" />
+
+            <TextView
+                android:id="@+id/tv_daltonismo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cambiar Colores"
+                android:textAlignment="center"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/letra_opciones" />
+
+            <RadioGroup
+                android:id="@+id/rg_dal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioButton
+                    android:id="@+id/rb_sin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sin Daltonismo" />
+
+                <RadioButton
+                    android:id="@+id/rb_rojo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deuteranopía (Rojo)" />
+
+                <RadioButton
+                    android:id="@+id/rb_verde"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Proteranopía (Verde)" />
+
+                <RadioButton
+                    android:id="@+id/rb_azul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tritanopía (Azul)" />
+
+                <RadioButton
+                    android:id="@+id/rb_byn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Acromatopsia (Blanco y Negro)" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

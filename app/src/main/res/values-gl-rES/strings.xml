@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Comfama</string>
+    <string name="productos_basicos">Produtos Esenciais</string>
+    <string name="cosas_varias">Cousas Varias</string>
+    <string name="muebles">Mobles</string>
+    <string name="parafarmacia">Parafarmacia</string>
+    <string name="herramientas">Ferramentas</string>
+    <string name="explicacion">"Pulsa na imaxe do micro e di o que queres mercar de entre os seguintes tipos de produto: produtos esenciais, cousas varias, mobles, parafarmacia ou ferramentas.
+        \n\nNo caso de ter activada a opción para persoas mudas, escribe o tipo de produto que queiras mercar.\n"
+    </string>
+    <string name="introduccion">\nEsta aplicación foi creada sen animo de lucro.
+        \n\nO propósito de esta aplicación é axudar a aqueles que non están moi familiarizados coa tecnoloxía,
+        para que poidan facer as compras por internet que necesiten sen ningún problema.
+        \n\nPulsa na imaxe para continuar."
+    </string>
+    <string name="lidl">https://www.lidl.es/</string>
+    <string name="amazon">https://www.amazon.es/</string>
+    <string name="ikea">https://www.ikea.com/es/gl/</string>
+    <string name="drfarma">https://drfarma.es/es/</string>
+    <string name="leroy_merlin">https://www.leroymerlin.es/</string>
+    <string name="instrucciones_lidl">Na páxina web de Lidl, non hay tradución ó Galego.
+        \n\nEn Lidl pódese mercar como invitado sen necesidade de ter unha conta, pero recomendámoste que fagas unha.
+        \n\nO primeiro é pulsar en Identifícate se xa tes conta, ou pulsar en Regístrate e crear unha conta se non a tes.
+        Despois, busca o que queiras mercar e dalle a Añadir a la cesta.
+        \n\nFai así con todos os produtos que queiras, cando termines pulsa na Cesta, e logo, en Compra Ya.
+        Introduce os teus datos, o teu método de pago e pulsa Pagar.\n\n
+    </string>
+    <string name="instrucciones_amazon">Na páxina web de Amazon, non hay tradución ó Galego.
+        \n\nO primeiro é pulsar no botón do monigote arriba á dereita.
+        Logo, selecciona Iniciar sesión se xa tes conta ou Crear conta se non a tes para creala.
+        Despois, busca o que queiras mercar e dalle a Añadir a la cesta.
+        \n\nFai así con todos os produtos que queiras, cando termines pulsa na Cesta, e logo, dalle a Tramitar pedido.
+        Introduce os teus datos, a túa dirección, o teu método de pago e a opción de envío que queiras entre as dispoñibles e pulsa Comprar ahora.\n\n
+    </string>
+    <string name="instrucciones_ikea">En Ikea pódese mercar sen necesidade de ter unha conta, pero recomendámoste que fagas unha.
+        \n\nO primeiro é pulsar en Hej! Inicia sesión ou rexístrate.
+        Logo, pulsar en Iniciar sesión e identificarse se xa tes conta, ou pulsar en Únete a IKEA Family e crearse unha conta de Ikea se non a tes.
+        Despois, busca o que queiras mercar e dalle a Engadir ao carriño.
+        \n\nFai así con todos os produtos que queiras, cando termines pulsa na Cesta, e logo, en Continuar co proceso de compra.
+        Escolle se queres ir a recollelos a algún punto de recollida ou se queres entrega a domicilio.
+        Introduce os teus datos, o teu método de pago e pulsa Pagar.\n\n
+    </string>
+    <string name="instrucciones_drfarma">Na páxina web de DrFarma, non hay tradución ó Galego.
+        En DrFarma pódese mercar como invitado sen necesidade de ter unha conta, pero recomendámoste que fagas unha.
+        \n\nO primeiro é pulsar en Iniciar sesión. Se xa tes unha conta de DrFarma, identifícate, se non pulsa en ¿No tiene una cuenta? para crear unha.
+        Despois, busca o que queiras mercar e dalle a Añadir al carrito.
+        \n\nFai así con todos os produtos que queiras, cando termines pulsa no Carriño, e logo, en Finalizar compra.
+        Introduce os teus datos, o teu método de envío, o teu método de pago e pulsa en Finalizar mi pedido.\n\n
+    </string>
+    <string name="instrucciones_leroymerlin">Na páxina web de Leroy Merlin, non hay tradución ó Galego.
+        En Leroy Merlin pódese mercar sen necesidade de ter unha conta, pero recomendámoste que fagas unha.
+        \n\nO primeiro é pulsar no botón do monigote arriba á dereita.
+        Logo, se xa tes unha conta de Leroy Merlin, identifícate, se non pulsa en Registrarme para crear unha.
+        Despois, busca o que queiras mercar e dalle a Añadir al carrito.
+        \n\nFai así con todos os produtos que queiras, cando termines pulsa no Carriño, e logo, en Tramitar pedido.
+        Introduce os teus datos e garda os cambios, escolle o método de entrega que queiras para cada produto e pulsa Ir a resumen.
+        Pulsa Ir a pago, escolle o teu método de pago e pulsa Pagar.\n\n
+    </string>
+    <string name="idioma">gl-ES</string>
+    <string name="no_recon_excep">"O teu dispositivo non soporta o recoñecemento por voz"</string>
+    <string name="noche">Activar Modo Noite</string>
+    <string name="mudos">Activar Modo Escrito para Persoas Mudas</string>
+    <string name="escribir">Escribe aquí o que queres mercar.</string>
+    <string name="buscar">Buscar</string>
+    <string name="opciones">Opcións</string>
+    <string name="pagina_inicial">Ir á Páxina Inicial</string>
+    <string name="salir">Saír da App</string>
+</resources>

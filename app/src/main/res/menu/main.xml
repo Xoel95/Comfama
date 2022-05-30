@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main">
+
+    <item android:id="@+id/initial_page"
+        android:icon="@drawable/logo_app"
+        android:title="@string/pagina_inicial"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/settings_animated"
+        android:title="@string/opciones"
+        android:orderInCategory="10"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/exit_app"
+        android:icon="@drawable/exit"
+        android:title="@string/salir"
+        android:orderInCategory="10"
+        app:showAsAction="ifRoom"/>
+
+</menu>

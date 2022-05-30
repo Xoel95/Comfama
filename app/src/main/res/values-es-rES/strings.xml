@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Comfama</string>
+    <string name="productos_basicos">Productos Esenciales</string>
+    <string name="cosas_varias">Cosas Varias</string>
+    <string name="muebles">Muebles</string>
+    <string name="parafarmacia">Parafarmacia</string>
+    <string name="herramientas">Herramientas</string>
+    <string name="explicacion">"Pulsa en la imagen del micro y di lo que quieres comprar de entre los siguientes tipos de producto: productos esenciales, cosas varias, muebles, parafarmacia o herramientas.
+        \n\nEn el caso de tener activada la opción para personas mudas, escribe el tipo de producto que quieras comprar.\n"
+    </string>
+    <string name="introduccion">\nEsta aplicación ha sido creada sin animo de lucro.
+        \n\nEl propósito de esta aplicación es ayudar a aquellos que no están muy familiarizados con la tecnología,
+        para que puedan hacer las compras por internet que necesiten sin ningún problema.
+        \n\nPulsa en la imagen para continuar."
+    </string>
+    <string name="lidl">https://www.lidl.es/</string>
+    <string name="amazon">https://www.amazon.es/</string>
+    <string name="ikea">https://www.ikea.com/es/es/</string>
+    <string name="drfarma">https://drfarma.es/es/</string>
+    <string name="leroy_merlin">https://www.leroymerlin.es/</string>
+    <string name="instrucciones_lidl">En Lidl se puede comprar como invitado sin necesidad de tener una cuenta, pero te recomendamos que hagas una.
+        \n\nLo primero es pulsar en Identifícate si tienes cuenta, o pulsar en Regístrate y crear una cuenta si no tienes.
+        Después, busca lo que quieras comprar y dale a Añadir a la cesta.
+        \n\nHaz así con todos los productos que quieras, cuando termines pulsa en la Cesta, y luego, en Compra Ya.
+        Introduce tus datos, tu método de pago y pulsa Pagar.\n\n
+    </string>
+    <string name="instrucciones_amazon">Lo primero es pulsar en el botón del monigote arriba a la derecha.
+        Luego, selecciona Iniciar sesión si ya tienes cuenta, o Crear cuenta si no la tienes para crearla.
+        Después, busca lo que quieras comprar y dale a añadir a la cesta.
+        \n\nHaz así con todos los productos que quieras, cuando termines pulsa en la Cesta, y luego, dale a Tramitar pedido.
+        Introduce tus datos, tu dirección, tu método de pago y la opción de envío que quieras entre las disponibles y pulsa Comprar ahora.\n\n
+    </string>
+    <string name="instrucciones_ikea">En Ikea se puede comprar sin necesidad de tener una cuenta, pero te recomendamos que hagas una.
+        \n\nLo primero es pulsar en Hej! Inicia sesión o regístrate.
+        Luego, pulsar en Iniciar sesión si tienes cuenta, o pulsar en Únete a IKEA Family y crear una cuenta si no tienes.
+        Después, busca lo que quieras comprar y dale a Añadir a la cesta.
+        \n\nHaz así con todos los productos que quieras, cuando termines pulsa en la Cesta, y luego, en Ver opciones de entrega.
+        Escoge si quieres ir a recoger los productos o si quieres la entrega a domicilio.
+        Introduce tus datos, tu método de pago y pulsa Pagar ahora.\n\n
+    </string>
+    <string name="instrucciones_drfarma">En DrFarma se puede comprar como invitado sin necesidad de tener una cuenta, pero te recomendamos que hagas una.
+        \n\nLo primero es pulsar en Iniciar sesión.
+        Luego, identifícate si ya tienes una cuenta, sino pulsa en ¿No tiene una cuenta? para crear una.
+        Después, busca lo que quieras comprar y dale a Añadir al carrito.
+        \n\nHaz así con todos los productos que quieras, cuando termines pulsa en el Carrito, y luego, en Finalizar compra.
+        Introduce tus datos, tu método de envío, tu método de pago y pulsa en Finalizar mi pedido.\n\n
+    </string>
+    <string name="instrucciones_leroymerlin">En Leroy Merlin se puede comprar sin necesidad de tener una cuenta, pero te recomendamos que hagas una.
+        \n\nLo primero es pulsar en el botón del monigote arriba a la derecha.
+        Luego, si ya tienes una cuenta, identifícate, sino pulsa en Registrarme para crear una.
+        Después, busca lo que quieras comprar y dale a Añadir al carrito.
+        \n\nHaz así con todos los productos que quieras, cuando termines pulsa en el Carrito, y luego, en Tramitar pedido.
+        Introduce tus datos y guarda los cambios, escoge el método de entrega que quieras para cada producto y pulsa Ir a resumen.
+        Pulsa Ir a pago, escoge tu método de pago y pulsa Pagar.\n\n
+    </string>
+    <string name="idioma">es-ES</string>
+    <string name="no_recon_excep">"Tu dispositivo no soporta el reconocimiento por voz."</string>
+    <string name="noche">Activar Modo Noche</string>
+    <string name="mudos">Activar Modo Escrito para Personas Mudas</string>
+    <string name="escribir">Escribe aquí lo que quieres comprar.</string>
+    <string name="buscar">Buscar</string>
+    <string name="opciones">Opciones</string>
+    <string name="pagina_inicial">Ir a la Página Inicial</string>
+    <string name="salir">Salir de la App</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sin_bg">#FFFF33FF</color>
+    <color name="sin_medio">#FF000000</color>
+    <color name="sin_text">#FFFFFFFF</color>
+
+    <color name="rojo_bg">#FF96B1FF</color>
+    <color name="rojo_medio">#FF000000</color>
+    <color name="rojo_text">#FFFFFAFA</color>
+
+    <color name="verde_bg">#FF679BF2</color>
+    <color name="verde_medio">#FF000000</color>
+    <color name="verde_text">#FFFFE8EF</color>
+
+    <color name="azul_bg">#FFF07178</color>
+    <color name="azul_medio">#FF000000</color>
+    <color name="azul_text">#FFF4F0FF</color>
+
+    <color name="byn_bg">#FF999999</color>
+    <color name="byn_medio">#FF000000</color>
+    <color name="byn_text">#FFFFFFFF</color>
+</resources>
