@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.comfama.ZoomLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zoom_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_principal_options"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sin_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_layout">
+
+        <LinearLayout
+            android:id="@+id/layout_secundario_options"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/sin_medio"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_layout">
+
+            <TextView
+                android:id="@+id/tv_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/padding_gigante"
+                android:text="@string/app_name"
+                android:textAlignment="center"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/titulo" />
+
+            <TextView
+                android:id="@+id/tv_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/padding_layout"
+                android:text="@string/version"
+                android:textAlignment="center"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/letra_opciones" />
+
+            <TextView
+                android:id="@+id/tv_autor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/padding_grande"
+                android:text="@string/autor"
+                android:textAlignment="center"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/letra_opciones" />
+
+            <TextView
+                android:id="@+id/tv_ayuda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/padding_grande"
+                android:text="@string/ayuda_info"
+                android:textAlignment="center"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/letra_defecto" />
+
+            <TextView
+                android:id="@+id/tv_correo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/padding_layout"
+                android:text="@string/correo"
+                android:textAlignment="center"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/letra_pequena" />
+
+            <TextView
+                android:id="@+id/tv_telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/padding_layout"
+                android:text="@string/telefono"
+                android:textAlignment="center"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/letra_pequena" />
+
+            <Button
+                android:id="@+id/btn_copyright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver_copyright"
+                android:onClick="onClickBtnCopyright"/>
+
+            <TextView
+                android:id="@+id/tv_copyright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/padding_layout"
+                android:text="@string/copyright"
+                android:textAlignment="center"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/letra_pequena"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btn_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver_informacion"
+                android:onClick="onClickBtnInfo"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</com.example.comfama.ZoomLinearLayout>

@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/layout_principal_options"
+<com.example.comfama.ZoomLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zoom_linear_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/sin_bg"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:padding="@dimen/padding_layout">
+    android:layout_height="match_parent">
 
-    <ScrollView
+    <LinearLayout
+        android:id="@+id/layout_principal_options"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:verticalScrollbarPosition="defaultPosition">
+        android:background="@color/sin_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_layout">
 
         <LinearLayout
             android:id="@+id/layout_secundario_options"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:background="@color/sin_medio"
             android:orientation="vertical"
+            android:gravity="center"
             android:padding="@dimen/padding_layout">
 
             <TextView
@@ -28,7 +29,8 @@
                 android:text="@string/noche"
                 android:textAlignment="center"
                 android:textColor="@color/sin_text"
-                android:textSize="@dimen/letra_opciones" />
+                android:textSize="@dimen/letra_opciones"
+                android:paddingBottom="@dimen/padding_defecto" />
 
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/btn_switch_noche"
@@ -44,7 +46,8 @@
                 android:text="@string/mudos"
                 android:textAlignment="center"
                 android:textColor="@color/sin_text"
-                android:textSize="@dimen/letra_opciones" />
+                android:textSize="@dimen/letra_opciones"
+                android:paddingBottom="@dimen/padding_defecto" />
 
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/btn_switch_escribir"
@@ -57,49 +60,55 @@
                 android:id="@+id/tv_daltonismo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Cambiar Colores"
+                android:text="@string/cambiar_colores"
                 android:textAlignment="center"
                 android:textColor="@color/sin_text"
-                android:textSize="@dimen/letra_opciones" />
+                android:textSize="@dimen/letra_opciones"
+                android:paddingBottom="@dimen/padding_defecto" />
 
             <RadioGroup
                 android:id="@+id/rg_dal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:textColor="@color/sin_text">
 
                 <RadioButton
                     android:id="@+id/rb_sin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sin Daltonismo" />
+                    android:text="@string/sin_dal"
+                    android:textSize="@dimen/letra_pequena" />
 
                 <RadioButton
                     android:id="@+id/rb_rojo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Deuteranopía (Rojo)" />
+                    android:text="@string/dal_rojo"
+                    android:textSize="@dimen/letra_pequena" />
 
                 <RadioButton
                     android:id="@+id/rb_verde"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Proteranopía (Verde)" />
+                    android:text="@string/dal_verde"
+                    android:textSize="@dimen/letra_pequena" />
 
                 <RadioButton
                     android:id="@+id/rb_azul"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tritanopía (Azul)" />
+                    android:text="@string/dal_azul"
+                    android:textSize="@dimen/letra_pequena" />
 
                 <RadioButton
                     android:id="@+id/rb_byn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Acromatopsia (Blanco y Negro)" />
+                    android:text="@string/dal_byn"
+                    android:textSize="@dimen/letra_pequena" />
 
             </RadioGroup>
-
         </LinearLayout>
-    </ScrollView>
-</LinearLayout>
+    </LinearLayout>
+</com.example.comfama.ZoomLinearLayout>

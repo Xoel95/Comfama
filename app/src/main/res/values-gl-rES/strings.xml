@@ -9,8 +9,7 @@
         \n\nNo caso de ter activada a opción para persoas mudas, escribe o tipo de produto que queiras mercar.\n"
     </string>
     <string name="introduccion">\nEsta aplicación foi creada sen animo de lucro.
-        \n\nO propósito de esta aplicación é axudar a aqueles que non están moi familiarizados coa tecnoloxía,
-        para que poidan facer as compras por internet que necesiten sen ningún problema.
+        \n\nO propósito de esta aplicación é axudar a aqueles que non están moi familiarizados coa tecnoloxía, para que poidan facer as compras por internet que necesiten sen ningún problema.
         \n\nPulsa na imaxe para continuar."
     </string>
     <string name="lidl">https://www.lidl.es/</string>
@@ -64,5 +63,34 @@
     <string name="buscar">Buscar</string>
     <string name="opciones">Opcións</string>
     <string name="pagina_inicial">Ir á Páxina Inicial</string>
-    <string name="salir">Saír da App</string>
+    <string name="salir">Saír da Aplicación</string>
+    <string name="cambiar_colores">Cambiar Cores</string>
+    <string name="sin_dal">Sen Daltonismo</string>
+    <string name="dal_rojo">Deuteranopía (Vermello)</string>
+    <string name="dal_verde">Proteranopia (Verde)</string>
+    <string name="dal_azul">Tritanopía (Azul)</string>
+    <string name="dal_byn">Acromatopsia (Branco e Negro)</string>
+    <string name="info_app">Información da Aplicación</string>
+    <string name="version">Versión: 1.0</string>
+    <string name="autor">Autor: Xoel Fernández Besada</string>
+    <string name="ayuda_info">No caso de encontrar calquera problema coa aplicación, poden buscar axuda a través da seguinte información de contacto:</string>
+    <string name="correo">Correo: xoel.fernandez.besada@gmail.com</string>
+    <string name="telefono">Teléfono: +34 665 212 785</string>
+    <string name="copyright">Copyright © 2022 Xoel Fernández Besada
+        \n\nPolo tanto, concédese o permiso, de forma gratuíta, a todo aquel que obteña unha copia
+        deste software e ficheiros de documentación asociados (o "Software"), para o seu procesamento
+        co Software sen restricións, incluíndo, sen limitación, os dereitos de
+        usar, copiar, modificar, fusionar, publicar, distribuír, sublicenciar e/ou vender
+        copias do Software e habilitar as persoas ás que están asignados, con suxeición ás seguintes condicións:
+        O aviso de copyright anterior e este aviso de permiso, incluiranse en
+        todas as copias ou partes substanciais do Software.
+        \n\nO SOFTWARE PROPORCIONASE "TAL CUAL" SEN GARANTÍA DE NINGÚN TIPO, EXPRESA OU
+        IMPLÍCITA, INCLUÍDAS PERO NON LIMITADAS ÁS GARANTÍAS DE COMERCIABILIDADE,
+        ADECUACIÓN PARA UN FIN PARTICULAR E NON INFRACCIÓN. DE NINGÚN XEITO
+        OS AUTORES OU TITULARES DO COPYRIGHT SERÁN RESPONSABLES DE CALQUERA RECLAMACIÓN, DANOS OU OUTRO MODO
+        RESPONSABILIDADES CONTRATATIVAS, AGRATIVAS OU DE OUTRO MODO, DERIVADAS DE,
+        FÓRA DO SOFTWARE OU EN CONEXIÓN CON O USO OU OUTROS TRATOS CO SOFTWARE.
+    </string>
+    <string name="ver_copyright">Ver Copyright</string>
+    <string name="ver_informacion">Ver Información</string>
 </resources>

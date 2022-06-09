@@ -9,8 +9,7 @@
         \n\nEn el caso de tener activada la opción para personas mudas, escribe el tipo de producto que quieras comprar.\n"
     </string>
     <string name="introduccion">\nEsta aplicación ha sido creada sin animo de lucro.
-        \n\nEl propósito de esta aplicación es ayudar a aquellos que no están muy familiarizados con la tecnología,
-        para que puedan hacer las compras por internet que necesiten sin ningún problema.
+        \n\nEl propósito de esta aplicación es ayudar a aquellos que no están muy familiarizados con la tecnología, para que puedan hacer las compras por internet que necesiten sin ningún problema.
         \n\nPulsa en la imagen para continuar."
     </string>
     <string name="lidl">https://www.lidl.es/</string>
@@ -61,5 +60,35 @@
     <string name="buscar">Buscar</string>
     <string name="opciones">Opciones</string>
     <string name="pagina_inicial">Ir a la Página Inicial</string>
-    <string name="salir">Salir de la App</string>
+    <string name="salir">Salir de la Aplicación</string>
+    <string name="cambiar_colores">Cambiar Colores</string>
+    <string name="sin_dal">Sin Daltonismo</string>
+    <string name="dal_rojo">Deuteranopía (Rojo)</string>
+    <string name="dal_verde">Proteranopía (Verde)</string>
+    <string name="dal_azul">Tritanopía (Azul)</string>
+    <string name="dal_byn">Acromatopsia (Blanco y Negro)</string>
+    <string name="info_app">Información de la Aplicación</string>
+    <string name="version">Versión: 1.0</string>
+    <string name="autor">Autor: Xoel Fernández Besada</string>
+    <string name="ayuda_info">En caso de encontrar cualquier problema con la aplicación, pueden buscar ayuda a través de la siguiente información de contacto:</string>
+    <string name="correo">Correo: xoel.fernandez.besada@gmail.com</string>
+    <string name="telefono">Teléfono: +34 665 212 785</string>
+    <string name="copyright">Copyright © 2022 Xoel Fernández Besada
+        \n\nPor la presente se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia
+        de este software y los archivos de documentación asociados (el "Software"), para tratar
+        con el Software sin restricciones, incluyendo, sin limitaciones, los derechos de
+        usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender
+        copias del Software, y para permitir a las personas a quienes se les
+        ha provisto para hacerlo, sujeto a las siguientes condiciones:
+        El aviso de derechos de autor anterior y este aviso de permiso, se incluirán en
+        todas las copias o partes sustanciales del Software.
+        \n\nEL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O
+        IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A LAS GARANTÍAS DE COMERCIABILIDAD,
+        IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO VIOLACIÓN. EN NINGÚN CASO LA
+        LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SERÁN RESPONSABLES DE CUALQUIER RECLAMACIÓN, DAÑOS U OTRAS
+        RESPONSABILIDADES, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O, DE OTRA FORMA, DERIVADA DE,
+        FUERA DE, O EN CONEXIÓN CON EL SOFTWARE, O EL USO U OTROS TRATOS CON EL SOFTWARE.
+    </string>
+    <string name="ver_copyright">Ver Copyright</string>
+    <string name="ver_informacion">Ver Información</string>
 </resources>

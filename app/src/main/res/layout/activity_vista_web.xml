@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.comfama.ZoomLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zoom_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_principal_options"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sin_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_layout">
+
+        <LinearLayout
+            android:id="@+id/layout_secundario_options"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/sin_medio"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_layout">
+
+            <TextView
+                android:id="@+id/tv_lidl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instrucciones_lidl"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/letra_defecto"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tv_amazon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instrucciones_amazon"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/letra_defecto"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_ikea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instrucciones_ikea"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/letra_defecto"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_drfarma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instrucciones_drfarma"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/letra_defecto"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_leroymerlin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instrucciones_leroymerlin"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/letra_defecto"
+                android:visibility="gone" />
+
+            <WebView
+                android:id="@+id/webview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </LinearLayout>
+</com.example.comfama.ZoomLinearLayout>

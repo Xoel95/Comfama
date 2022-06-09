@@ -4,22 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".Main">
 
+    <!-- Es necesario poner always porque si hay algún ifRoom por defecto
+     crea un despegable cuando hay mas de 3 simbolos. -->
+
     <item android:id="@+id/initial_page"
-        android:icon="@drawable/logo_app"
+        android:icon="@drawable/logo_app_sin"
         android:title="@string/pagina_inicial"
         android:orderInCategory="1"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="always"/>
 
     <item android:id="@+id/action_settings"
-        android:icon="@drawable/settings_animated"
+        android:icon="@drawable/settings_sin"
         android:title="@string/opciones"
         android:orderInCategory="10"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/info_app"
+        android:icon="@drawable/info_sin"
+        android:title="@string/info_app"
+        android:orderInCategory="15"
+        app:showAsAction="always"/>
 
     <item android:id="@+id/exit_app"
-        android:icon="@drawable/exit"
+        android:icon="@drawable/exit_sin"
         android:title="@string/salir"
-        android:orderInCategory="10"
-        app:showAsAction="ifRoom"/>
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
 
 </menu>

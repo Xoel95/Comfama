@@ -13,23 +13,26 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:logo="@drawable/ic_logo_app"
         android:label="@string/app_name"
+        android:logo="@drawable/ic_logo_app"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Comfama"
         tools:targetApi="31">
         <activity
+            android:name=".Info"
+            android:exported="false" />
+        <activity
             android:name=".Options"
             android:exported="false" />
         <activity
-            android:name=".Activity3"
+            android:name=".VistaWeb"
             android:exported="false" />
         <activity
-            android:name=".Activity2"
+            android:name=".ReconVoz"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Inicio"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

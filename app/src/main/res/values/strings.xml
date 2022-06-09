@@ -5,13 +5,12 @@
     <string name="muebles">Furniture</string>
     <string name="parafarmacia">Parapharmacy</string>
     <string name="herramientas">Tools</string>
-    <string name="explicacion">"Click on the mic image and say whatever you want to buy from the next kinds of product: essential products, random things, furniture, parapharmacy or tools.
-        \n\nIf you have the mute persons' option activated, write the kind of product you want to buy.\n"
+    <string name="explicacion">Click on the mic image and say whatever you want to buy from the next kinds of product: essential products, random things, furniture, parapharmacy or tools.
+        \n\nIf you have the mute persons\' option activated, write the kind of product you want to buy.\n
     </string>
-    <string name="introduccion">"\nThis is a nonprofit app.
-        \n\nThe purpose of this app is to help those who are not acquainted with technology,
-        so they can buy all the things they need through the Internet without any problems.
-        \n\nClick on the image to continue."
+    <string name="introduccion">\nThis is a nonprofit app.
+        \n\nThe purpose of this app is to help those who are not acquainted with technology, so they can buy all the things they need through the Internet without any problems.
+        \n\nClick on the image to continue.
     </string>
     <string name="lidl">https://www.lidl.es/</string>
     <string name="amazon">https://www.amazon.com/</string>
@@ -64,4 +63,34 @@
     <string name="opciones">Settings</string>
     <string name="pagina_inicial">Go to Initial Page</string>
     <string name="salir">Exit App</string>
+    <string name="cambiar_colores">Change Colors</string>
+    <string name="sin_dal">Without Color Blindness</string>
+    <string name="dal_rojo">Deuteranopia (Red)</string>
+    <string name="dal_verde">Protheranopia (Green)</string>
+    <string name="dal_azul">Tritanopia (Blue)</string>
+    <string name="dal_byn">Achromatopsia (White and Black)</string>
+    <string name="info_app">App\'s Info</string>
+    <string name="version">Version: 1.0</string>
+    <string name="autor">Author: Xoel Fernández Besada</string>
+    <string name="ayuda_info">In the case of finding any problem with the app, you can search for help through the contact info next:</string>
+    <string name="correo">Email: xoel.fernandez.besada@gmail.com</string>
+    <string name="telefono">Phone Number: +34 665 212 785</string>
+    <string name="copyright">Copyright © 2022 Xoel Fernández Besada
+        \n\nPermission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        \n\nThe above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+        \n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    </string>
+    <string name="ver_copyright">See Copyright</string>
+    <string name="ver_informacion">See Information</string>
 </resources>

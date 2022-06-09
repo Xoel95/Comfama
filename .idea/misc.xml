@@ -3,26 +3,54 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2115" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/exit.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/exit_azul.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/exit_byn.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/exit_rojo.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/exit_sin.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/exit_verde.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/ic_logo_app.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/info_azul.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/info_byn.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/info_rojo.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/info_sin.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/info_verde.xml" value="0.2115" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/mic.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/mic_azul.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/mic_byn.xml" value="0.2115" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/mic_day.xml" value="0.1685" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/mic_night.xml" value="0.1685" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/mic_rojo.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/mic_sin.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/mic_verde.xml" value="0.2115" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/settings.xml" value="0.2115" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/settings_animated.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/settings_azul.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/settings_byn.xml" value="0.2115" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/settings_day.xml" value="0.1685" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/settings_day_animated.xml" value="0.1685" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/settings_night.xml" value="0.1685" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/settings_night_animated.xml" value="0.1685" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/settings_rojo.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/settings_sin.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/drawable/settings_verde.xml" value="0.2115" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/layout-land/activity_2.xml" value="0.30864197530864196" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/layout-land/activity_3.xml" value="0.30864197530864196" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/layout-land/activity_info.xml" value="0.291005291005291" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/layout-land/activity_main.xml" value="0.30864197530864196" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/layout-land/activity_options.xml" value="0.30864197530864196" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/layout/activity_2.xml" value="0.2767210144927536" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/layout/activity_3.xml" value="0.2767210144927536" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/layout/activity_info.xml" value="0.2767210144927536" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/layout/activity_main.xml" value="0.2767210144927536" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/layout/activity_options.xml" value="0.2767210144927536" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/layout/custom_image.xml" value="0.2767210144927536" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/layout/zoomableview.xml" value="0.2767210144927536" />
         <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/menu/main.xml" value="0.34375" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2115" />
+        <entry key="..\:/Users/ALUMNO/AndroidStudioProjects/Comfama/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2115" />
       </map>
     </option>
   </component>

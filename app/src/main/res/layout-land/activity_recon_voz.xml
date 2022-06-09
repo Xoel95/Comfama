@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.comfama.ZoomLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zoom_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_principal_options"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sin_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_layout_land">
+
+        <LinearLayout
+            android:id="@+id/layout_secundario_options"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/sin_medio"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_layout_land">
+
+            <!--        <ImageButton-->
+            <!--            android:id="@+id/img_btn_options"-->
+            <!--            app:srcCompat="@drawable/settings_animated"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_gravity="end"-->
+            <!--            android:backgroundTint="@color/sin_medio"-->
+            <!--            android:contentDescription="TODO"/>-->
+
+            <TextView
+                android:id="@+id/tv_explicacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/explicacion"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/letra_intermedia" />
+
+            <TextView
+                android:id="@+id/tv_grabar"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/sin_text"
+                android:textSize="@dimen/letra_escuchada"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_escribir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/escribir"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="@color/sin_text"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_buscar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/sin_bg"
+                android:onClick="onClickBtnEscribir"
+                android:text="@string/buscar"
+                android:textColor="@color/sin_text"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/ibtn_hablar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:background="@color/sin_medio"
+                android:contentDescription="TODO"
+                android:onClick="onClickImgBtnHablar"
+                android:src="@drawable/mic_sin" />
+
+        </LinearLayout>
+    </LinearLayout>
+</com.example.comfama.ZoomLinearLayout>
