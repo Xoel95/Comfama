@@ -131,7 +131,7 @@ public class ReconVoz extends AppCompatActivity {
             }
         }
     }
-    public void onClickImgBtnHablar(View v) {
+    public void onClickImgBtnHablar(View view) {
         Intent intentActionRecognizeSpeech = new Intent(
                 RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
         // Configura el Lenguaje dependiendo del idioma del sistema
